@@ -53,3 +53,16 @@ The visual system layout leans heavily into structural alignment and modern high
     ├── Marvin-Shadow.otf
     ├── Matra-Regular.otf
     └── BoldKei-nRAWP.ttf
+
+## AI Usage
+
+AI tools were used during the development of this project for learning, debugging, and understanding concepts. Specifically, AI assisted with:
+
+* Explaining JavaScript concepts and browser APIs.
+* Suggesting approaches for certain UI and CSS design elements.
+* Helping debug logic related to task rendering, event handling, and Local Storage.
+* Providing explanations for unfamiliar CSS properties and techniques.
+* Offering implementation ideas that were reviewed, modified, and integrated by me.
+
+All AI-assisted sections have been clearly marked with comments in the source code wherever applicable. The project was built, tested, customized, and assembled by me, and AI was primarily used as a learning and problem-solving aid throughout the development process.
+
