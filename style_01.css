@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Marvin Visions';
+    src: url('Fonts/Marvin.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Marvin Visions';
+    src: url('Fonts/Marvin-Round.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Matra Regular';
+    src: url('Fonts/Matra\ Regular.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BoldKei';
+    src: url('Fonts/BoldKei-nRAWP.ttf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+}
+
+#container {
+    border: 3px dashed black;
+    width: 100%;
+    height: 100%;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 15%;
+    width: 75%;
+    font-size: 5rem;
+    color: white;
+    font-family: Matra Regular;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    position: absolute;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 2%;
+    cursor: pointer;
+}
+
+#container #wrapper {
+    margin-top: 15%;
+    width: 70rem;
+    height: 3rem;
+    display: flex;
+    align-items: stretch;
+    /* Had no idea stretch attribute value even existed . Thanks to Gemini */
+    position: relative;
+    gap: 0;
+}
+
+#container #wrapper #input-box {
+    width: 78%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-color: #000;
+    font-family: 'BoldKei', sans-serif;
+    font-weight: normal;
+}
+
+#container #wrapper #priority-selector {
+    height: 100%;
+    border: 2px solid black;
+    width: 10%;
+    gap: 0;
+    text-align: center;
+    font-family: 'BoldKei', sans-serif;
+}
+
+#container #wrapper #priority-selector:focus {
+    border-radius: 0;
+    outline: none;
+}
+
+.inputError {
+    border: 3px solid red;
+    background-color: rgb(230, 75, 75);
+    color: white;
+}
+
+.inputError::placeholder {
+    color: white;
+}
+
+#container #wrapper span {
+    color: #fff;
+    position: absolute;
+    background-color: #000;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0px 2%;
+    right: 0%;
+    cursor: pointer;
+    font-family: 'BoldKei', sans-serif;
+}
+
+#container #wrapper #input-box:focus {
+    outline: none;
+    border-radius: 0;
+}
+
+#container #task-title {
+    border: 2px solid black;
+    width: 70rem;
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: 0.13fr 0.7fr 1fr 0.3fr 0.3fr 0.2fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+    padding: 0.06rem;
+    font-family: 'BoldKei', sans-serif;
+    padding: 0.5rem 0.2rem;
+
+}
+
+#list-wrapper {
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+    margin: 2% 0;
+    width: 70rem;
+    font-family: 'BoldKei', sans-serif;
+}
+
+.col-sn {
+    color: white;
+    background-color: black;
+    padding-left: 1.5rem;
+}
+
+#list-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 0.13fr 0.7fr 1fr 0.3fr 0.3fr 0.2fr;
+    gap: 1rem 1rem;
+    align-items: center;
+}
+
+#list-container span {
+    display: flex;
+    align-items: center;
+    height: 2rem;
+}
+
+.delete-btn {
+    background-color: red;
+    border: 3px solid black;
+    color: white;
+    font-weight: 800;
+    transition: 0.3s all ease-in-out;
+}
+
+.delete-btn:hover {
+    box-shadow: 3px 2px 0px black;
+}
+
+/*Thanks to Gemini for the idea of this Tactical click effect(what a fancy name)*/
+.delete-btn:active {
+    box-shadow: 1px 1px 0px black;
+    transform: translate(3px, 3px);
+}
+
+.col-priority.high {
+    color: red;
+}
+
+.col-priority.medium {
+    color: orange;
+}
+
+.col-priority.low {
+    color: green;
+}
+
+/*Thanking Gemini for helping me get the desired desgin*/
+.radio-btn {
+    appearance: none;
+    border: 3px solid black;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+}
+
+.radio-btn::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    transform: scale(0);
+    transition: 0.1s transform ease-in-out;
+
+}
+
+.radio-btn:checked::before {
+    transform: scale(1);
+}
+
+.col-task.completed {
+    color: gray;
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}

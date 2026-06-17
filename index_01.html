@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="style_01.css">
+    <script src="script_01.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Outfit:wght@100..900&family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>TO-DO LIST</header>
+    <div id="container">
+        <div id="wrapper">
+            <input type="text" placeholder="Enter Your Task" id="input-box">
+            <select id="priority-selector">
+                <option value="low">LOW</option>
+                <option value="medium">MEDIUM</option>
+                <option value="high">HIGH</option>
+            </select>
+            <span id="add-task-btn">+ Add Task</span>
+        </div>
+        <div id="task-title">
+            <span>
+                S.N.
+            </span>
+            <span>
+                PRIORITY
+            </span>
+            <span>
+                TASK
+            </span>
+            <span>
+                Ongoing
+            </span>
+            <span>
+                DONE
+            </span>
+            <span>
+                MANAGE
+            </span>
+        </div>
+        <div id="list-wrapper">
+            <div id="list-container">
+            </div>
+        </div>
+</body>
+
+</html>
