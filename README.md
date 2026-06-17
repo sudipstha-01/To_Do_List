@@ -1,6 +1,6 @@
 # 📝 To-Do List Priority Tracking
 
-Hello everyone , This project is about making a To-Do List where you can also select the Priotrity of the particular task , letting you know where to focus the most.
+Hello everyone , This project is a To-Do List where you can also select the Priotrity of the particular task , letting you know where to focus the most =).
 <br>
 
 
