@@ -54,15 +54,31 @@ The visual system layout leans heavily into structural alignment and modern high
     ├── Matra-Regular.otf
     └── BoldKei-nRAWP.ttf
 
-## AI Usage
+## 🤖 AI Usage Disclosure
 
-AI tools were used during the development of this project for learning, debugging, and understanding concepts. Specifically, AI assisted with:
+> AI tools were used during the development of this project as a learning, debugging, and brainstorming assistant. The goal was to better understand concepts, solve problems, and improve the overall implementation.
+
+### 🛠️ Areas Where AI Assisted
 
 * Explaining JavaScript concepts and browser APIs.
-* Suggesting approaches for certain UI and CSS design elements.
-* Helping debug logic related to task rendering, event handling, and Local Storage.
-* Providing explanations for unfamiliar CSS properties and techniques.
-* Offering implementation ideas that were reviewed, modified, and integrated by me.
+* Debugging issues related to task rendering and event handling.
+* Suggesting approaches for Local Storage implementation.
+* Helping understand CSS Grid, Flexbox, and custom form styling.
+* Providing UI/UX improvement suggestions.
+* Assisting with code organization and logic refinement.
 
-All AI-assisted sections have been clearly marked with comments in the source code wherever applicable. The project was built, tested, customized, and assembled by me, and AI was primarily used as a learning and problem-solving aid throughout the development process.
+### 📝 Transparency
+
+All AI-assisted sections have been clearly acknowledged within the source code through comments wherever applicable.
+
+While AI provided guidance and explanations, the project was built, tested, customized, and iteratively improved by me. AI was primarily used as a learning tool throughout the development process rather than as a replacement for development.
+
+---
+
+<div align="center">
+
+**💡 Learn → Experiment → Debug → Build**
+
+</div>
+
 
