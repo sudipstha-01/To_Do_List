@@ -39,25 +39,6 @@ The visual system layout leans heavily into structural alignment and modern high
 - **Tactical UI Feedback:** Incorporates tactile downward shifts (`transform: translate(3px, 3px)`) and localized box-shadow manipulation on active button vectors to heighten click response feedback.
 
 ---
-
-## 📁 Repository Structure
-
-```text
-├── index.html          # Core structural layout and data nodes
-├── style_01.css        # Custom CSS Grid schemes, font-face maps, & pseudo-elements
-├── script_01.js        # LocalStorage bindings, dynamic DOM rendering, and click delegation
-├── README.md           # Documentation and showcase manual
-└── Fonts/              # Dedicated custom typography assets
-    ├── Marvin.otf
-    ├── Marvin-Round.otf
-    ├── Marvin-Shadow.otf
-    ├── Matra-Regular.otf
-    └── BoldKei-nRAWP.ttf
-
-## 🤖 AI Usage Disclosure
-
-> AI tools were used during the development of this project as a learning, debugging, and brainstorming assistant. The goal was to better understand concepts, solve problems, and improve the overall implementation.
-
 ### 🛠️ Areas Where AI Assisted
 
 * Explaining JavaScript concepts and browser APIs.
@@ -82,3 +63,20 @@ While AI provided guidance and explanations, the project was built, tested, cust
 </div>
 
 
+## 📁 Repository Structure
+
+```text
+├── index.html          # Core structural layout and data nodes
+├── style_01.css        # Custom CSS Grid schemes, font-face maps, & pseudo-elements
+├── script_01.js        # LocalStorage bindings, dynamic DOM rendering, and click delegation
+├── README.md           # Documentation and showcase manual
+└── Fonts/              # Dedicated custom typography assets
+    ├── Marvin.otf
+    ├── Marvin-Round.otf
+    ├── Marvin-Shadow.otf
+    ├── Matra-Regular.otf
+    └── BoldKei-nRAWP.ttf
+
+## 🤖 AI Usage Disclosure
+
+> AI tools were used during the development of this project as a learning, debugging, and brainstorming assistant. The goal was to better understand concepts, solve problems, and improve the overall implementation.
