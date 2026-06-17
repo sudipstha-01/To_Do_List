@@ -76,7 +76,3 @@ While AI provided guidance and explanations, the project was built, tested, cust
     ├── Marvin-Shadow.otf
     ├── Matra-Regular.otf
     └── BoldKei-nRAWP.ttf
-
-## 🤖 AI Usage Disclosure
-
-> AI tools were used during the development of this project as a learning, debugging, and brainstorming assistant. The goal was to better understand concepts, solve problems, and improve the overall implementation.
